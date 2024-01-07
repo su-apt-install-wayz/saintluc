@@ -38,18 +38,19 @@ svg {
 
 :root {
     /*!--------- Couleurs ---------!*/
-    --c-background: #18181a;
+    --c-background: #F6F6FF;
     --c-nav: #131315;
 
-    --c-text-color: #fff;
+    --c-card: #131315;
+    --c-text-color: #000;
+    
+    --c-text-color-nav: #fff;
     --c-text-color-footer: #666666;
 
-    --c-border-color: #2B2E39;
-
-    --c-primary-color: #00b7ff;
-    --c-secondary-color : #003566;
-    --c-tertiary-color: #001022;
+    --c-primary-color: #20adff;
+    --c-secondary-color : #ff6ff6;
+    --c-tertiary-color: #ffd60a;
 
     /*!--------- Boîtes d'ombres ---------!*/
-    --c-box-shadow-grey: 5px 5px 20px var(--c-grey);
+    --c-box-shadow: 2px 2px 20px 5px #00000010;
 }

@@ -15,7 +15,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    background: var(--c-primary-color);
+    background: var(--c-secondary-color);
 }
 
 .socials .nav_list_socials {
@@ -29,7 +29,7 @@ header {
 }
 
 .socials .nav_list_socials a svg {
-    fill: var(--c-text-color);
+    fill: var(--c-text-color-nav);
 }
 
 nav {
@@ -92,7 +92,7 @@ ul.nav_list a {
     align-items: center;
     gap: 10px;
     font-size: 16px;
-    color: var(--c-text-color);
+    color: var(--c-text-color-nav);
     position: relative;
     cursor: pointer;
     transition: all 0.3s ease;

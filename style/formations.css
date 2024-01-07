@@ -29,20 +29,33 @@
     color: var(--c-text-color);
 }
 
+.formation_option {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.formation_option.active {
+    display: flex;
+}
+
 .carte_formation {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 1rem;
-    background: var(--c-nav);
+    background: var(--c-card);
     border-radius: 6px;
     gap: 5px;
-    color: var(--c-text-color);
+    color: var(--c-text-color-nav);
+    box-shadow: var(--c-box-shadow);
 }
 
 .carte_formation h3 {
     text-transform: uppercase;
-    /* color: var(--c-primary-color); */
+    color: var(--c-primary-color);
+    font-size: 25px;
 }
 
 .carte_formation a {
@@ -57,4 +70,55 @@
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.carte_formation .categorie {
+    margin: 20px auto 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carte_formation .categorie h4 {
+    color: var(--c-secondary-color);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.carte_formation p:first-of-type {
+    margin: 15px auto 0 0;
+}
+
+.formations_selectors {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.formations_selectors button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background: var(--c-primary-color);
+    color: var(--c-text-color-nav);
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.formations_selectors button.active {
+    background: var(--c-secondary-color);
+}
+
+@media (max-width:650px) {
+    .liste_formations {
+        flex-direction: column;
+    }
+
+    .liste_formations .right {
+        max-width: none;
+    }
 }

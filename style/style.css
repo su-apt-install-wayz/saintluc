@@ -12,10 +12,20 @@ section {
 section h2 {
     margin: 0 auto;
     color: var(--c-text-color);
+    text-transform: uppercase;
 }
 
 section h2 span {
     color: var(--c-primary-color);
+}
+
+section > p {
+    margin: 20px auto 0;
+    color: var(--c-text-color);
+}
+
+section > p span {
+    color: var(--c-secondary-color);
 }
 
 .back {

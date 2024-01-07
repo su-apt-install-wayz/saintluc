@@ -1,0 +1,41 @@
+.liste_equipe, .liste_salles {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+    justify-content: center;
+}
+
+.carte_equipe {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    gap: 10px;
+    padding: 1rem;
+    color: var(--c-text-color);
+    align-items: center;
+}
+
+.carte_salle {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 100%;
+    gap: 10px;
+    padding: 1rem;
+    color: var(--c-text-color);
+    align-items: center;
+}
+
+.carte_equipe img, .carte_salle img {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.carte_equipe h3, .carte_salle h3 {
+    color: var(--c-secondary-color);
+}

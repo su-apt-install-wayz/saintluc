@@ -124,10 +124,10 @@ ul.nav_list a:hover::after {
     transition: all 0.3s ease;
 }
 
-ul.nav_list a.active {
+/* ul.nav_list a.active {
     color: var(--c-primary-color);
     transition: all 0.3s ease
-}
+} */
 
 ul.nav_list a.active::after {
     width: 100%;

@@ -38,11 +38,11 @@ svg {
 
 :root {
     /*!--------- Couleurs ---------!*/
-    --c-background: #F6F6FF;
+    --c-background: #0d0d0d;
     --c-nav: #131315;
 
     --c-card: #131315;
-    --c-text-color: #000;
+    --c-text-color: #fff;
     
     --c-text-color-nav: #fff;
     --c-text-color-footer: #666666;

@@ -38,18 +38,17 @@ svg {
 
 :root {
     /*!--------- Couleurs ---------!*/
-    --c-background: #f6f6f6;
+    --c-background: #edede9;
     --c-nav: #131315;
 
-    --c-card: #fff;
-    --c-text-color: #000;
+    --c-card: #f6f6f6;
+    --c-text-color: #141414;
     
-    --c-text-color-nav: #fff;
+    --c-text-color-nav: #fffafa;
     --c-text-color-footer: #666666;
 
-    --c-primary-color: #20adff;
-    --c-secondary-color : #ff6ff6;
-    --c-tertiary-color: #ffd60a;
+    --c-primary-color: #2995c0;
+    --c-secondary-color : #dcb270;
 
     /*!--------- Boîtes d'ombres ---------!*/
     --c-box-shadow: 2px 2px 20px 5px #00000010;
